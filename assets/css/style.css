@@ -1,0 +1,99 @@
+header {
+  background: white;
+  width: auto;
+  position: relative;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+
+.clearFix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#nicoleRichardson {
+  font-family:  "Georgia", Times, Times New Roman, serif;
+  font-weight: bold;
+  font-size: 28px;
+  float: left;
+  background: #4aaaa5;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 150px;
+
+}
+
+#about {
+  font-family: "Georgia", Times, Times New Roman, serif;
+  font-size: 18px;
+  color: black;
+  float: left;
+  padding: 20px;
+  margin-bottom: 20px;
+  width:
+
+}
+
+#portfolio {
+  font-family: "Georgia", Times, Times New Roman, serif;
+  font-size: 18px;
+  color: black;
+  float: left;
+  padding: 20px;
+  margin-bottom: 20px;
+  width:
+
+}
+
+#contact {
+  font-family: "Georgia", Times, Times New Roman, serif;
+  font-size: 18px;
+  color: black;
+  float: left;
+  padding: 20px;
+  margin-bottom: 20px;
+  width:
+
+}
+
+.break {
+  color: grey;
+  float: left;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+img {
+  float: left;
+  margin-right: 10px;
+}
+
+.aboutParagraph {
+  float: left;
+  margin-left: 20px;
+}
+
+.container {
+  border: 1px solid #cccccc;
+  width: 960px;
+  margin: 40px auto;
+  background: white;
+  text-align: left;
+  padding: 30px;
+  height: auto;
+  font-size: 15px;
+  font-family: Georgia;
+  border-radius: 10px;
+}
+
+body {
+   font-size: 18px;
+   font-family: Georgia;
+   background: #dddddd;
+   color: #777777;
+}
