@@ -5,7 +5,7 @@ header {
   margin-left: -20px;
   margin-right: -20px;
   margin-top: -20px;
-  margin-bottom: -20px;
+  margin-bottom: 20px;
   height: 82px;
 }
 
@@ -27,7 +27,6 @@ header {
   margin-bottom: -20px;
   margin-left: 160px;
   position: absolute;
-
 
 }
 
@@ -89,18 +88,33 @@ body {
 
 footer {
   background-color: #666666;
-  width: 2000px;
-  position: absolute;
-  bottom: -20px;
+  width: fixed;
+  position: static;
   margin-left: -20px;
   margin-right: -20px;
-  margin-top: -20px;
-  margin-bottom: -20px;
-  height: 70px;
+  margin-top: 60px;
+  margin-bottom: -80px;
+  height: 60px;
+}
+
+#footerSmall {
+  background-color: #4aaaa5;
+  width: fixed;
+  position: static;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: 60px;
+  margin-bottom: -80px;
+  height: 5px;
 }
 
 #footerBig {
-  position: absolute;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  font-size: 15px;
+  color: #777777;
+  padding-top: 40px;
   text-align: center;
+  margin-top: 20px
+
 
 }
