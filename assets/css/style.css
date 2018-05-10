@@ -1,3 +1,13 @@
+a {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFFF;
+    background-color: #1F497D;
+}
+
 header {
   background: white;
   width: fixed;
